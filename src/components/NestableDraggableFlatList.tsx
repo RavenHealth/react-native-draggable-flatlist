@@ -56,8 +56,9 @@ function NestableDraggableFlatListInner<T>(
     const onFail = () => {
       console.log("## nested draggable list measure fail");
     };
-    //@ts-ignore
-    containerRef.current.measureLayout(nodeHandle, onSuccess, onFail);
+    if (containerRef.current) {
+      containerRef.current.measureLayout(nodeHandle, onSuccess, onFail);
+    }
   });
 
   const onDragBegin: DraggableFlatListProps<T>["onDragBegin"] = useStableCallback(

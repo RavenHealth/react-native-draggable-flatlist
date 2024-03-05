@@ -1,6 +1,6 @@
 {
-  "name": "react-native-draggable-flatlist",
-  "version": "4.0.1",
+  "name": "@ravenhealth/react-native-draggable-flatlist",
+  "version": "4.0.2",
   "description": "A drag-and-drop-enabled FlatList component for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/computerjazz/react-native-draggable-flatlist.git"
+    "url": "git+https://github.com/RavenHealth/react-native-draggable-flatlist.git"
   },
   "keywords": [
     "react-native",
@@ -33,7 +33,7 @@
   "author": "Daniel Merrill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/computerjazz/react-native-draggable-flatlist/issues"
+    "url": "https://github.com/RavenHealth/react-native-draggable-flatlist/issues"
   },
   "jest": {
     "preset": "react-native",
@@ -46,7 +46,7 @@
     },
     "transformIgnorePatterns": []
   },
-  "homepage": "https://github.com/computerjazz/react-native-draggable-flatlist#readme",
+  "homepage": "https://github.com/RavenHealth/react-native-draggable-flatlist#readme",
   "peerDependencies": {
     "react-native": ">=0.64.0",
     "react-native-gesture-handler": ">=2.0.0",
@@ -69,6 +69,9 @@
     "react-native-reanimated": "^2.8.0",
     "react-test-renderer": "^17.0.2",
     "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "react-native-builder-bob": {
     "source": "src",
